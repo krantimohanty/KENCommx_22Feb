@@ -1,0 +1,127 @@
+{"parentMenu":[
+  {
+    "menuName": "Our Stores",
+    "menuId": "1",
+    "menuoption": [
+      {
+        "menuName": "Drinks",
+        "menuId": "10"
+      },
+      {
+        "menuName": "Gourmet Treats",
+        "menuId": "11"
+      },
+      {
+        "menuName": "Day-To-Day",
+        "menuId": "12"
+      },
+      {
+        "menuName": "Gifts",
+        "menuId": "13"
+      },
+      {
+        "menuName": "Events & Services",
+        "menuId": "14"
+      }
+    ]
+  },
+  {
+    "menuName": "Profile",
+    "menuId": "2",
+    "menuoption": [
+      {
+        "menuName": "My Details",
+        "menuId": "15"
+      },
+      {
+        "menuName": "My Payments",
+        "menuId": "25"
+      },
+      {
+        "menuName": "My Addresses",
+        "menuId": "16"
+      },{
+        "menuName": "Wishlist",
+        "menuId": "17"
+      },
+      {
+        "menuName": "Shopping Lists",
+        "menuId": "18"
+      }
+    ]
+  },
+  {
+    "menuName": "Orders",
+    "menuId": "3",
+    "menuoption": [
+      {
+        "menuName": "Past Orders",
+        "menuId": "19"
+      },
+      {
+        "menuName": "Track Orders",
+        "menuId": "20"
+      }
+    ]
+  },
+
+  {
+    "menuName": "Notifications",
+    "menuId": "4"
+  },
+  {
+    "menuName": "Cart",
+    "menuId": "5"
+  },
+  {
+    "menuName": "PROMO CODE",
+    "menuId": "6"
+  },
+  {
+    "menuName": "Explainer Video",
+    "menuId": "7"
+  },
+  {
+    "menuName": "Rate Us",
+    "menuId": "26"
+  },
+  {
+    "menuName": "Service Rating",
+    "menuId": "28"
+  },
+  {
+    "menuName": "Share App",
+    "menuId": "27"
+  },
+  {
+    "menuName": "Support",
+    "menuId": "8",
+    "menuoption": [
+      {
+        "menuName": "Where We Serve",
+        "menuId": "21"
+
+      },
+      {
+        "menuName": "FAQs",
+        "menuId": "22"
+
+      },
+      {
+        "menuName": "Privacy Policy",
+        "menuId": "23"
+
+      },
+      {
+        "menuName": "Terms & Conditions",
+        "menuId": "24"
+
+      }
+    ]
+  },
+  {
+    "menuName": "Sign In",
+    "menuId": "9"
+  }
+
+]}

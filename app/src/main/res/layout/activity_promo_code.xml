@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_promo_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="webskitters.com.stockup.PromoCodeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hearder_height"
+        android:background="@color/app_theme_yellow"
+        android:id="@+id/header"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/padding_extream_large"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_normal"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_btn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_back"
+            android:text="FREE PROMO CODE"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_text_size"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:weightSum="100">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="7">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:background="@drawable/greenbg"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_bg"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pcode_top_man"
+                android:paddingLeft="@dimen/padding_extra_large"
+                android:paddingTop="@dimen/padding_extra_large"
+                android:paddingRight="@dimen/padding_extra_large"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:padding="@dimen/padding_large"
+            android:background="@drawable/white_bg"
+            android:orientation="vertical"
+            android:weightSum="3">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:paddingTop="@dimen/padding_normal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your R50 Promo Code!"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/padding_normal"
+                    android:id="@+id/txt_msg" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/hearder_height"
+                    android:background="@color/bg_promo_code"
+                    android:layout_below="@+id/txt_msg"
+                    android:paddingLeft="@dimen/hearder_height"
+                    android:paddingRight="@dimen/hearder_height"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:layout_centerHorizontal="true">
+                    <TextView
+                        android:id="@+id/txt_promo_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="su-cedric1"
+
+                        android:textSize="@dimen/signin_large_text_size"
+                        android:textColor="@color/app_theme_green"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/promo_code"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btn_share_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/hearder_height"
+                    android:background="@color/app_theme_blue"
+                    android:text="share code"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/padding_large"
+                    android:paddingLeft="@dimen/hearder_height"
+                    android:paddingRight="@dimen/hearder_height"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

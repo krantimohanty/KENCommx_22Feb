@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffffff"
+    android:padding="15dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:id="@+id/rel1"
+            android:layout_alignParentTop="true"
+            android:visibility="visible"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Rate our app"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:id="@+id/header"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/medium_text_size"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel1"
+            android:id="@+id/msg"
+            android:text="If you enjoy using this app, would you mind taking a moment to rate it? It won’t take more than a minute. Thank you for your support!"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/medium_text_size"
+            android:layout_marginLeft="@dimen/padding_large"
+
+            android:layout_marginRight="@dimen/padding_large"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hearder_height"
+            android:layout_below="@+id/msg"
+            android:background="@color/white"
+            android:id="@+id/txt_date"
+            android:text="21 November 2016"
+            android:textSize="@dimen/medium_text_size"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="#70B74E"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#ffffff"
+            android:id="@+id/rel2"
+            android:layout_alignParentBottom="true"
+            android:padding="2dp"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/grey_light"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight=".8"
+                    android:layout_height="40dp"
+                    android:text="LATER"
+                    android:textStyle="normal"
+                    android:id="@+id/btn_later"
+                    android:textColor="#048BCD"
+                    android:gravity="center|center_vertical"
+                    android:layout_margin="5dp"
+                    android:textSize="@dimen/medium_text_size"
+                    android:background="#00000000"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1.2"
+                    android:layout_height="40dp"
+                    android:text="NO, THANKS"
+                    android:textStyle="normal"
+                    android:id="@+id/btn_no"
+                    android:textColor="#048BCD"
+                    android:gravity="center|center_vertical"
+                    android:layout_margin="5dp"
+                    android:textSize="@dimen/medium_text_size"
+                    android:background="#00000000"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:text="RATE NOW"
+                    android:textStyle="normal"
+                    android:id="@+id/btn_yes"
+                    android:textColor="#048BCD"
+                    android:gravity="center|center_vertical"
+                    android:layout_margin="5dp"
+                    android:textSize="@dimen/medium_text_size"
+                    android:background="#00000000"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_name"
+    android:tag="layout-xhdpi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/img_day"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/landing_day"/>
+            <ImageView
+                android:id="@+id/img_gourmets"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/landing_gourmet"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/img_gift"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/landing_gifts"/>
+            <ImageView
+                android:id="@+id/img_events"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/landing_events"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="false">
+
+
+       <!-- <ImageView
+            android:id="@+id/img_roundright"
+            android:layout_width="@dimen/landing_page_logo_outer_width"
+            android:layout_height="@dimen/landing_page_logo_outer_width"
+            android:src="@drawable/roundright"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:clickable="false"/>
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="@dimen/landing_page_logo_inner_width"
+            android:layout_height="@dimen/landing_page_logo_inner_width"
+            android:src="@drawable/inner_logo"
+            android:layout_centerInParent="true"
+            android:clickable="false"/>-->
+
+
+        <ImageView
+            android:id="@+id/img_drink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/landing_drinks"
+            android:layout_centerInParent="true"
+            android:clickable="false"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

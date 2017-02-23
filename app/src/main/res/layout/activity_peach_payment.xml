@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_peach_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/app_theme_green"
+        android:id="@+id/header"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Peach Payment Demo"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/white_transparent"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:hint="Firstname Lastname"/>
+            <EditText
+                android:id="@+id/et_card_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/white_transparent"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:hint="Credit card Number"/>
+            <EditText
+                android:id="@+id/et_card_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/white_transparent"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:hint="Expires MM/YYYY"/>
+            <EditText
+                android:id="@+id/et_card_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/white_transparent"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:hint="CVV"/>
+            <Button
+                android:id="@+id/btn_pay"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@color/app_theme_green"
+                android:text="Pay Now"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/txt_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
